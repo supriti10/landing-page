@@ -1,4 +1,4 @@
-import { PEOPLE_URL } from "@/landing-page/constants";
+import { PEOPLE_URL } from "@/constants";
 import Image from "next/image";
 
 interface CampProps {
@@ -53,14 +53,14 @@ const Camp = () => {
       <div className="hide-scrollbar flex h-[340px] w-full items-start justify-start gap-8 overflow-x-auto lg:h-[400px] xl:h-[640px]">
         <CampSite 
           backgroundImage="bg-bg-img-1"
-          title="Putuk Truno Camp"
-          subtitle="Prigen, Pasuruan"
+          title="Hampta Pass Trek"
+          subtitle="Himachal Pradesh"
           peopleJoined="50+ Joined"
         />
         <CampSite 
           backgroundImage="bg-bg-img-2"
-          title="Mountain View Camp"
-          subtitle="Somewhere in the Wilderness"
+          title="Dzongri Trek"
+          subtitle="Sikkim"
           peopleJoined="50+ Joined"
         />
       </div>

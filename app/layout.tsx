@@ -1,8 +1,8 @@
 import type { Metadata } from "next";
 import React from 'react';
 import './globals.css'
-import Navbar from "@/landing-page/components/Navbar";
-import Footer from "@/landing-page/components/Footer";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 export const metadata: Metadata = {
   title: "Travel",

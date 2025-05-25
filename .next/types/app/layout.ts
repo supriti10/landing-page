@@ -1,4 +1,4 @@
-// File: C:\Users\KIIT\Desktop\WebDev\travel_app\app\layout.tsx
+// File: C:\Users\KIIT\Desktop\WebDev\travel_app\landing-page\app\layout.tsx
 import * as entry from '../../../app/layout.js'
 import type { ResolvingMetadata, ResolvingViewport } from 'next/dist/lib/metadata/types/metadata-interface.js'
 
